@@ -1,7 +1,7 @@
-# Timer based on ATtiny 2313 microcontroller
+# Digital Temperature Converter based on MAX31855 
 
 ## Description
-This project is a timer using the ATtiny 2313 microcontroller. It controls an AC load (230V), turning it on for a set time and then turning it off automatically when the time ends. This can be used to control things like lights or appliances that need to work for a certain period. The ATtiny 2313 is small and uses little power, which makes it great for timing tasks.
+This project uses the MAX31855 digital temperature converter. It turns the temperature from a thermocouple into a digital signal, which can be read by a microcontroller. This is useful for accurate temperature measurement in different areas, like industrial machines or environmental monitoring. It connects to a microcontroller via SPI and provides precise temperature readings
 
 
 ## PCB and 3D-Design
